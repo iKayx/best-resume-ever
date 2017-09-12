@@ -1,42 +1,42 @@
 /* eslint-disable */
 export const PERSON = {
   name: {
-    first: 'John',
-    last: 'Doe',
+    first: 'Marvin',
+    last: 'Quaty',
   },
   position: 'Software Developer',
   birth: {
-    year: 1990,
-    location: 'New York'
+    year: 1994,
+    location: 'Heidelberg'
   },
   experience: [{
-      company: 'Company A',
-      position: 'Developer',
-      timeperiod: 'since January 2016',
-      description: 'Programming and watching cute cat videos.'
+      company: 'K3V-Solutions',
+      position: 'Software-Entwickler',
+      timeperiod: 'Januar 2017 - Jetzt',
+      description: 'Portierung von VB6 auf .NET'
     },
     {
-      company: 'Company B',
-      position: 'Frontend Developer',
-      timeperiod: 'January 2015 - December 2015',
-      description: 'Fulfillment of extremly important tasks.'
+      company: 'ESCS',
+      position: 'Ausbildung',
+      timeperiod: 'Mai 2015 - Dezember 2016',
+      description: '.NET Anwendungen(WinForms,WPF + MVVM),Web Anwendungen(ASP.NET,JS)'
     },
     {
-      company: 'Company C',
-      position: 'Trainee',
-      timeperiod: 'March 2014 - December 2014',
-      description: 'Making coffee and baking cookies.'
+      company: 'Mathilde-Vogt-Haus',
+      position: 'FSJ',
+      timeperiod: 'August 2014 - April 2015',
+      description: 'Frontend-Developer,Server Wartungen + Allgemeine Computer Arbeiten'
     }
   ],
   education: [{
-      degree: 'Master of Arts',
-      timeperiod: 'March 2012 - December 2013',
-      description: 'Major in Hacking and Computer Penetration, University A, New York, USA.'
+      degree: 'Fachabitur',
+      timeperiod: '2014',
+      description: 'Fachabitur mit Fachrichtung Ingenieur'
     },
     {
-      degree: 'Bachelor of Science',
-      timeperiod: 'March 2009 - December 2011',
-      description: 'Major in Engineering, University B, Los Angeles, USA.'
+      degree: 'Realschule',
+      timeperiod: 'Irgendwann davor',
+      description: 'Nothing Special'
     }
   ],
   // skill level goes 0 to 100
@@ -75,11 +75,11 @@ export const PERSON = {
   ],
   skillDescription: 'Also proficient in Adobe Photoshop and Illustrator, grew up bilingual (English and Klingon).',
   contact: {
-    email: 'john.doe@email.com',
+    email: 'Marvin@Kayx.de',
     phone: '0123 456789',
     street: '1234 Broadway',
-    city: 'New York',
-    website: 'johndoe.com',
-    github: 'johnyD'
+    city: 'Heidelberg',
+    website: 'www.Kayx.de',
+    github: 'iKayx'
   }
 };
